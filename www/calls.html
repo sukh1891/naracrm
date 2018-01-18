@@ -4,13 +4,31 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>Blank App</title>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script>
+            var firstCall=0;
+            var lastCall=20;
+            calls.getCalls(function(res){
+                var calls = JSON.parse(res);
+                for (i=0;i<calls.length;i++){
+                    var tel = calls[i].phoneNumber;
+                    var type = calls[i].type;
+                    var date = calls[i].date;
+                    var caller = calls[i].caller;
+                    document.getElementById("calls").innerHTML += tel . type . date . caller;
+                }    
+            }
+            ,function(error){console.log(error);}
+            ,""
+            ,""
+            ,[firstCall,lastCall]);
+        </script>
     </head>
     <body>
         <h1>Call Logs</h1>
         <a id="logout"><h2>Logout</h2></a>
         <div id="calls"></div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

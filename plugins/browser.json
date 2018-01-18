@@ -24,6 +24,9 @@
         },
         "callsplugin": {
             "PACKAGE_NAME": "com.ktech.purikart"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ktech.naracrm"
         }
     },
     "dependent_plugins": {}
