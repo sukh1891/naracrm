@@ -1,56 +1,48 @@
 {
-    "cordova-plugin-device-orientation": {
+    "cordova-plugin-battery-status": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-device-orientation@1.0.7"
+            "id": "cordova-plugin-battery-status@~1.1.1"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-network-information": {
+    "cordova-plugin-camera": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-network-information"
+            "id": "cordova-plugin-camera@~2.1.1"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-splashscreen": {
+    "cordova-plugin-media-capture": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-splashscreen@4.1.0"
+            "id": "cordova-plugin-media-capture@~1.2.0"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-file": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-whitelist@1"
+            "id": "cordova-plugin-file"
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console@~1.0.2"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-phone-calllog-watch": {
+    "cordova-plugin-contacts": {
         "source": {
             "type": "registry",
-            "id": "cordova-phone-calllog-watch"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "callsplugin": {
-        "source": {
-            "type": "registry",
-            "id": "callsplugin"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-ionic": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-ionic@2.0.4"
+            "id": "cordova-plugin-contacts@~2.0.1"
         },
         "is_top_level": true,
         "variables": {}
@@ -58,7 +50,119 @@
     "cordova-plugin-device": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-device"
+            "id": "cordova-plugin-device@~1.1.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device-motion": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device-motion@~1.2.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device-orientation": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device-orientation@~1.0.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-dialogs@~1.2.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-file-transfer": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-file-transfer@~1.5.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-geolocation@~2.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-globalization": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-globalization@~1.0.3"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser@~1.3.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-media": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-media@~2.2.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-network-information@~1.2.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-splashscreen@~3.2.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@~1.2.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-websql": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-websql"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-android-permissions": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-android-permissions"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.ubookr.plugins.calllog": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-phone-calllog"
         },
         "is_top_level": true,
         "variables": {}
